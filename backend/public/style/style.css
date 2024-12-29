@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+}
+
+nav {
+  background: #333;
+  color: #fff;
+  padding: 1em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a.active {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2em;
+  text-align: center;
+}
+
+table {
+  width: 80%;
+  margin: 1em auto;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 1em;
+  text-align: center;
+}
+
+table th {
+  background: #333;
+  color: #fff;
+}
+
+form {
+  margin: 2em auto;
+  width: 50%;
+  text-align: left;
+}
+
+form input, form select, form button {
+  width: 100%;
+  padding: 0.8em;
+  margin: 0.5em 0;
+  font-size: 1em;
+}
+
+form button {
+  background: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #555;
+}

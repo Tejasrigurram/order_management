@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Users Management</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="orders.html">Orders</a></li>
+      <li><a href="users.html" class="active">Users</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Users</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>User ID</th>
+          <th>Username</th>
+          <th>Role</th>
+        </tr>
+      </thead>
+      <tbody id="users-table">
+        <!-- Dynamic content will go here -->
+      </tbody>
+    </table>
+    <h2>Add New User</h2>
+    <form id="add-user-form">
+      <input type="text" id="username" placeholder="Username" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <select id="role">
+        <option value="admin">Admin</option>
+        <option value="customer">Customer</option>
+      </select>
+      <button type="submit">Add User</button>
+    </form>
+  </main>
+  <script src="js/users.js"></script>
+</body>
+</html>
